@@ -34,7 +34,7 @@ function Card(props) {
 										{mission.launch_success !== null ? mission.launch_success.toString() : 'N/A'}
 									</div>
 									{/* <div class="col-6">Successful Landing:</div>
-          <div class="col-6">{{ mission.launch_landing }}</div>  */}
+          								<div class="col-6">{{ mission.launch_landing }}</div>  */}
 								</div>
 							</div>
 						</div>
