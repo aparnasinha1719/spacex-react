@@ -1,0 +1,7 @@
+.contentContainer {
+	display: flex;
+	flex-wrap: wrap;
+	background: rgba(229, 229, 229, 0.5);
+	padding: 56px 8px 8px 8px;
+	min-height: calc(100vh - 100px);
+}

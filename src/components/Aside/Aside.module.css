@@ -1,0 +1,36 @@
+.filterSelectionWrapper h5 {
+	margin: 0.6rem 0;
+}
+
+.filterSelectionWrapper {
+	width: 150px;
+	background: white;
+	margin: 5px 0;
+	border-radius: 5px;
+	padding: 8px;
+	position: fixed;
+	height: 100%;
+}
+.filterSelectionWrapper p {
+	text-align: center;
+	margin: 8px 0;
+	font-size: 0.77rem;
+}
+.filterSelectionWrapper hr {
+	width: 70%;
+	opacity: 0.5;
+}
+.btnWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+@media only screen and (max-width: 699px) {
+	.filterSelectionWrapper {
+		width: 100%;
+		position: relative;
+	}
+	.btnWrapper {
+		justify-content: space-evenly;
+	}
+}

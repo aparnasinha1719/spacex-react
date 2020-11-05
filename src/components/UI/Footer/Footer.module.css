@@ -1,0 +1,13 @@
+.footer {
+	text-align: center;
+	padding: 10px 0px;
+}
+.footer span {
+	font-weight: bold;
+}
+/* 
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+  } */

@@ -1,0 +1,86 @@
+.cardSection {
+	flex: 1;
+	padding-left: 166px;
+}
+.cardWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	justify-content: flex-start;
+}
+.card {
+	/* height: fit-content; */
+	width: calc((0.25 * 100%) - 10px);
+	margin: 5px;
+	border-radius: 5px;
+	background: white;
+	box-sizing: border-box;
+	padding: 16px 8px;
+}
+.card img {
+	width: 50%;
+	margin: auto;
+	display: block;
+	background-color: rgba(229, 229, 229, 0.5);
+}
+.loadingText {
+	text-align: center;
+	color: slategrey;
+	width: 100%;
+}
+
+.missionName {
+	color: #003a70;
+}
+.missionDetails h6 {
+	margin: 0.3rem 0;
+}
+.missionDetails h6 span {
+	color: slategray;
+}
+.missionDetails ul {
+	margin: 5px 0px;
+}
+.missionDetails ul li {
+	font-size: 0.7rem;
+	color: slategray;
+}
+.missionDetails .row {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 0.65rem;
+}
+.missionDetails .row .colAuto {
+	width: auto;
+	max-width: 50%;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.missionDetails .row .colHalf {
+	width: 50%;
+	margin-bottom: 5px;
+}
+.missionDetails .row .colHalf.heading,
+.colAuto.heading {
+	font-weight: bold;
+}
+.missionDetails .row .colHalf.text {
+	color: slategray;
+}
+@media only screen and (max-width: 699px) {
+	.card {
+		width: 100%;
+	}
+	.cardSection {
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+	.card {
+		width: calc((0.5 * 100%) - 10px);
+	}
+	.card img {
+		width: 40%;
+	}
+}

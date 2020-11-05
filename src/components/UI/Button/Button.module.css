@@ -1,0 +1,14 @@
+.filterBtn {
+	border: 0;
+	background: #b9e8b9;
+	padding: 5px 10px;
+	border-radius: 4px;
+	margin: 5px;
+	cursor: pointer;
+	outline: none;
+}
+
+.filterBtn.active,
+.filterBtn:hover {
+	background: #0fa80f;
+}
