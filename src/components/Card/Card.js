@@ -33,8 +33,14 @@ function Card(props) {
 									<div className={`${classes.colHalf} ${classes.text}`}>
 										{mission.launch_success !== null ? mission.launch_success.toString() : 'N/A'}
 									</div>
-									{/* <div class="col-6">Successful Landing:</div>
-          								<div class="col-6">{{ mission.launch_landing }}</div>  */}
+								</div>
+								<div className={classes.row}>
+									<div className={`${classes.colAuto} ${classes.heading}`}>Successful Landing:</div>
+									<div className={`${classes.colHalf} ${classes.text}`}>
+										{mission.rocket.first_stage.cores[0].land_success !== null
+											? mission.rocket.first_stage.cores[0].land_success.toString()
+											: 'N/A'}
+									</div>
 								</div>
 							</div>
 						</div>
