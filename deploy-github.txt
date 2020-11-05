@@ -1,0 +1,19 @@
+## deploy in github
+
+1. create react app
+2. create repository
+3. npm install "gh-pages" --save-dev (install gh-pages as development dependency)
+4. git init
+5. add remote
+6. in package.json add "homepage":"http://userName.github.io/reponame" on top
+7. in script json add-
+"predeploy":"npm run build",
+"deploy":"gh-pages -d build",
+8. git add .
+9. git commit -m "message"
+10. npm run deploy
+11. git push -u origin HEAD or branch-userName
+
+get link after deploy
+ 1. go to setting in your specific repo
+ 2 in Github Page section you will see your link
